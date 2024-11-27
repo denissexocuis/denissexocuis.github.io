@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denisse Xocuis</title>
+  <!-- !CDN Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- !CDN Iconos Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- ! FavIcon -->
+  <link rel="shortcut icon" href="assets/cup-hot-fill.svg" type="image/x-icon">
+
+  <!-- !fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Faculty+Glyphic&family=Nanum+Gothic+Coding&family=Pacifico&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- !archivo CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <!-- bootstrap nos ayuda que la página sea responsiva-->
+  <!-- !header -->
+  <div id="header" class="d-flex flex-wrap justify-content-center py-2 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <!-- !icono -->
+      <i class="bi bi-code-slash p-3 text-white"></i>
+      <span class="fs-4 text-white">Denisse Xocuis</span>
+    </a>
+    <ul class="nav col-12 col-lg-auto my-2 justify-content-center ">
+      <li class="perfil"><a id="boton-perfil" href="#" class="nav-link text-white rounded-circle" aria-current="page">Yo</a></li>
+      <li class="nav-item"><a href="#hanging-icons" class="nav-link text-white">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link text-white">Proyectos</a></li>
+      <li class="nav-item"><a href="#testimonios" class="nav-link text-white">Testimonios</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link text-white">Contacto</a></li>
+    </ul>
+  </div>
+  <!-- fin de header -->
+
+  <!-- !heroe -->
+  <div class="hero">
+    <div class="row p-4 py-5 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Martha Denisse Lara Xocuis</h1>
+        <!-- texto Typewriter -->
+        <h2 id="app"></h2>
+        <p class="lead py-2">
+
+            Apasionada por la programación y creatividad.
+  
+            Mi interés en la tecnología y el arte se complementa con una fuerte inclinación hacia la edición de videos, la
+            pintura, el canto y la creación de experiencias interactivas en videojuegos.
+  
+            Tengo un profundo interés y dominio de varios idiomas, incluyendo francés, inglés y japonés, lo que me permite
+            comunicarme y colaborar en un entorno internacional y multicultural. Lo que más me motiva es enfrentar nuevos
+            desafíos y el aprendizaje continuo, tanto en el área técnica como artística, siempre buscando integrar lo
+            mejor de ambos mundos en mis proyectos.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button id ="boton-cv" type="button" class="btn btn-outline-secondary btn-lg px-4">Link al CV</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+        <img class="rounded-lg-3 rounded-circle" src="assets/denisso.jpeg" alt="" width="500">
+      </div>
+    </div>
+  </div>
+  <!-- *fin de heroe -->
+  <!-- !features HABILIDADES -->
+  <main>
+      <div class="habilidades container px-4 py-5 mt-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-pc-display-horizontal px-3 fs-3"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Desarrollo Web</h3>
+              <p>He creado sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de
+                Tecnolochicas PRO</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-tv px-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Animación y Videojuegos</h3>
+              <p>Tengo conocimiento en Blender, Krita, OpenToonz, Aseprite, Godot y OpenGL</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-brush-fill px-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Pintura</h3>
+              <p>Llevo años empeñandome en arte tradicional y digital, manejo variedad de conceptos técnicos y he hecho
+                colaboraciones. He usado aplicaciones como Clip Studio Paint, ibisPaint, MediBang Paint Pro, Paint Tool
+                SAI y Photoshop.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-camera-reels-fill px-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Edición video y audio</h3>
+              <p>He creado proyectos personales en Sony Vegas Pro, FL Studio y Audacity</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-braces px-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">LaTeX</h3>
+              <p>Manejo LaTeX desde hace varios años, conozco mucho de sus macros y paquetes, así como un buen manejo del
+                documento</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-file-earmark-code px-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C</h3>
+              <p>He creado simulaciones y programas avanzados en donde se aplica la manipulación de memoria, estructuras y
+                archivos, incluso OpenGL.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-filetype-java px-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Java</h3>
+              <p>He integrado bases de datos en SQL con Java y GUI's</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <i class="bi bi-ubuntu p-3 fs-4"></i>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Linux</h3>
+              <p>Mi entorno de trabajo desde 2023. He creado proyectos integradores manejando terminal y diversos complementos que ofrece este software libre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!--* feature fin -->
+    <!-- ! album -->
+    <div id="proyectos" class="proyectos container mt-5">
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <div id ="columnas" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- !columna 1 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/sistemasolar.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Sistema Solar Escala en 3D con OpenGL.
+                <div id="Proyectostext" class="p-3">
+                  <li>Texturas con tb_image.h</li>
+                <li>Iluminación y sombras</li>
+                <li>Estructuras</li>
+                <li>Animación de rotación con valores reales</li>
+                <li>Se encuentran: SOL, MERCURIO, VENUS, TIERRA, MARTE, JUPITER, SATURNO, URANO, NEPTUNO, PLUTON, CERES, HAUMEA, MAKEMAKE, ESTRELLAS, CINTURON DE ASTEROIDES</li>
+                <li>Movimiento por teclado A W S D</li>
+                </div>
+                
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- !boton y así de Github o pagina -->
+                  <button type="button" class="btn btn-proyecto">
+                    <a target="_blank" href="https://github.com/denissexocuis/OpenGL-SolarSystem3D">Github</a>
+                  </button>
+                  <button type="button" class="btn btn-proyecto">
+                    <a target="_blank" href="https://youtu.be/2Kwq9D5JUFY">Youtube</a>
+                  </button>
+                  <!-- *boton y asi -->
+                </div>
+                <small class="text-body-secondary">C</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- !columna 2 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/snoopy.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Snoopy en 2D con OpenGL.
+              </p>
+              <div id="Proyectostext" class="p-3">
+                <li>Dibujo con polígonos de forma manual</li>
+                <li>Ilusión de 3D por GL_SMOOTH y colores</li>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div >
+                  <!-- !boton y así de Github o pagina -->
+                  <button type="button" class="btn btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://github.com/denissexocuis/OpenGL-Snoopy">Github</a>
+                  </button>
+                    <a target="_blank" href=""></a>
+                  </button>
+                  <!-- *boton y asi -->
+                </div>
+                <small class="text-body-secondary">C</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- !columna 3 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/glutfrustum.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Personaje en GL/freeglut en 3D.</p>
+              <div id="Proyectostext" class="p-3">
+                <li>Visualización de Frustrum en segunda pantalla con mouse</li>
+                <li>Macros multipantallas</li>
+                <li>Funciones vectoriales (producto cruz, escalar y normalización)</li>
+                <li>Grid</li>
+                <li>Iluminación</li>
+                <li>Movimiento entrada por teclado</li>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- !boton y así de Github o pagina -->
+                  <button type="button" class="btn btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="">Github</a>
+                  </button>
+                    <a target="_blank" href=""></a>
+                  </button>
+                  <!-- *boton y asi -->
+                </div>
+                <small class="text-body-secondary">C</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- !columna 4 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" src="assets/mitskipage.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Mitski Fanpage</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- !boton y así de Github o pagina -->
+                  <button type="button" class="btn btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="">Github</a>
+                  </button>
+                    <a target="_blank" href=""></a>
+                  </button>
+                  <!-- *boton y asi -->
+                </div>
+                <small class="text-body-secondary">HTML/CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- !columna 5 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <!-- ?para imagen -->
+            <img class="bd-placeholder-img card-img-top" src="assets/ClonPint.png" alt="">
+            <div class="card-body">
+              <p class="card-text">
+                Clon de Pinterest
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://github.com/denissexocuis/Pinterest-Clon">Github</a>
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary btn-proyecto">
+                    <a target="_blank" href="https://pinterest-clon-mitski.vercel.app/">Ver</a>
+                  </button>
+                  <!-- *boton y asi -->
+                </div>
+                <small class="text-body-secondary">HTML/CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *album -->
+
+    <!-- !carousel de testimonios -->
+    <div id="testimonios" class="testimonios container mt-5">
+      <h2 class="pb-2 border-bottom px-5 py-5 ">Testimonios</h2>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">            
+            <!-- !card -->
+            <div class="d-flex justify-content-center">
+
+              <div style="width: 18rem;">
+                <img src="assets/homme.jpg" class="card-img-top rounded-circle mt-5" alt="...">
+
+                <!-- !titulo y subtitulo -->
+                <h5 class="card-title text-center mt-4">Alan Schleske</h5>
+                <h6 class="card-subtitle mb-1 text-body-secondary text-center mt-1">Estudiante Universitario</h6>
+                <!-- *titulo y subtitulo -->
+                <div id="testimonioS" class="card-body">
+                  <p class="card-text">
+                    <i>
+                      "Tiene una forma muy interesante de ver las cosas y se orienta mucho a lo visual para desarrollar las ideas"
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- *card -->
+          </div>
+          <div class="carousel-item">
+            <!-- !card -->
+            <div class="d-flex justify-content-center">
+              <div  style="width: 18rem;">
+                <img src="assets/homme.jpg" class="card-img-top rounded-circle mt-5" alt="...">
+                <!-- !titulo y subtitulo -->
+                <h5 class="card-title text-center mt-4">Guillermo Themsel</h5>
+                <h6 class="card-subtitle mb-1 text-body-secondary text-center mt-1">Estudiante Universitario</h6>
+                <!-- *titulo y subtitulo -->
+                <div id="testimonioS" class="card-body">
+                  <p class="card-text">"Una de las persona más confiables, con conocimiento y facilidad de entender y explicar concepto matematicos. 10/10</p>
+                </div>
+              </div>
+            </div>
+            <!-- *card -->
+          </div>
+          <div class="carousel-item">
+            <!-- !card -->
+            <div class="d-flex justify-content-center"> <!-- ?tiene d-flex -->
+              <div  style="width: 18rem;">
+                <img src="assets/homme.jpg" class="card-img-top rounded-circle mt-5" alt="...">
+                <!-- !titulo y subtitulo -->
+                <h5 class="card-title text-center mt-4">Gonzalo Chavez</h5>
+                <h6 class="card-subtitle mb-1 text-body-secondary text-center mt-1">Estudiante Universitario</h6>
+                <!-- *titulo y subtitulo -->
+                <div id="testimonioS" class="card-body">
+                  <p class="card-text ">
+                    <i>
+                      "Me ayudó a entender conceptos en el ámbito de la programación y también sugerencias de mis códigos para poder optimizarlos"
+                    </i>
+                    </p>
+                </div>
+              </div>
+            </div>
+            <!-- *card -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <span class="visually-hidden"></span>
+          </span>
+        </button>
+        <button class="carousel-control-next" type="button"  data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
+    </div>
+    <!-- *carousel -->
+
+    <!-- !Jumbotron -->
+    <div class="py-5">
+      <div id="contacto" class="p-5 text-center text-muted border border-dashed mt-5">
+
+        <i class="bi bi-chat-heart d-block mx-auto mb-4 fs-1 text-white "></i>
+
+        <h1 class="display-5 fw-bold text-white">Contactame!</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-white">Contáctame para iniciar un proyecto de desarrollo web.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="mailto:denissexocuis@gmail.com">
+              <button id="btn-contacto" type="button" class="btn  btn-lg px-4 gap-3 text-white">Invitame!</button>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- *Jumbotron -->
+  </main>
+
+  <!-- ! footer -->
+    <footer class="py-3 my-4" id = "contacto">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item fs-4"><a target ="_blank" href="https://github.com/denissexocuis" class="nav-link px-2y"><i class="bi bi-github"></i></a></li>
+        <li class="nav-item fs-4"><a target="_blank" href="https://www.linkedin.com/in/martha-denisse-lara-xocuis-09387b2b4/" class="nav-link px-2"><i class="bi bi-linkedin"></i></a></li>
+        <li class="nav-item fs-4"><a target="_blank" href="https://www.instagram.com/deniiso__/" class="nav-link px-2"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">Creado por Martha Denisse Lara Xocuis en el bootcamp de
+        <a target= "_blank" href="https://tecnolochicas.mx/">TechnolochicasPro</a>
+      </p>
+  <!-- *footer -->
+
+  <!-- script de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- script de animación - Typewriter -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <!-- main js -->
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+body
+{
+    background-color: #f2e9e4;
+}
+#header
+{
+    background-color: #1D2D44;
+}
+
+.hero
+{
+    background-color: #F2E9E4;
+}
+
+#boton-perfil
+{
+    background-color: #4A4E69;
+}
+
+/* codificando soluciones y asi */
+#app
+{
+    color:#4A4E69;
+    font-family: monospace;
+    font-size:22px;
+}
+
+h1
+{
+    color: #22223B;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2
+{
+    font-family: monospace;
+    
+}
+
+.lead
+{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#boton-cv
+{
+    color: #22223B;
+    
+}
+
+.caja-habilidades
+{
+    background-color: #F2E9E4;
+    color: #22223B;
+}
+
+.btn-proyecto
+{
+    background-color: black;
+    
+}
+
+.btn-proyecto a
+{
+    text-decoration: none;
+    color: #F2E9E4;
+}
+.card-body
+{
+    background-color: #C9ADA7;
+}
+
+#Proyectostext
+{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-text
+{
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    flex-flow: column;
+}
+
+h5
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#testimonioS
+{
+    border-radius: 5%;
+    background-color: #C9ADA7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-dashed
+{
+    background-color:  #1D2D44;
+}
+
+footer li a i
+{
+    color: #22223B;
+}
+
+footer p a
+{
+    text-decoration: none;
+    color: #ff5e5b;
+}
