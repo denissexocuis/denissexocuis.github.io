@@ -1,26 +1,27 @@
 body
 {
-    background-color: #f2e9e4;
+    background-color: #FFFFFF;
 }
 #header
 {
-    background-color: #1D2D44;
+    background-color: #00171F;
 }
 
 .hero
 {
-    background-color: #F2E9E4;
+    background-color: #edf2fb;
+
 }
 
 #boton-perfil
 {
-    background-color: #4A4E69;
+    background-color: #1F7A8C;
+    border-radius: 25%;
 }
 
-/* codificando soluciones y asi */
 #app
 {
-    color:#4A4E69;
+    color:#52b69a;
     font-family: monospace;
     font-size:22px;
 }
@@ -35,7 +36,14 @@ h1
 h2
 {
     font-family: monospace;
+    color:#003459;
     
+}
+
+p
+{
+    font-size: large;
+    text-align: justify;
 }
 
 .lead
@@ -69,18 +77,18 @@ h2
 }
 .card-body
 {
-    background-color: #C9ADA7;
+    background-color: #edf2fb;
 }
 
 #Proyectostext
 {
-    font-size: larger;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card-text
 {
-    font-size: 15px;
+    font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     flex-flow: column;
@@ -91,12 +99,16 @@ h5
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
 #testimonioS
 {
     border-radius: 5%;
     background-color: #C9ADA7;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+i
+{
+    font-size: 15px;
 }
 
 .border-dashed
